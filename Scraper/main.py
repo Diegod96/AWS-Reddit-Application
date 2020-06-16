@@ -1,22 +1,19 @@
 from praw.models import MoreComments
 
-from config import reddit_instance
+from reddit import reddit_instance
 from dynamo import articles_table
-
 
 articles = articles_table()
 reddit = reddit_instance()
 
 
-
 def subreddit_hot_submissions(sub="wallstreetbets"):
     # Connects to subreddit (sub)
-    # Iterates through hot submissions and returns them in a list
-
+    # Iterates through the top 100 hot submissions and returns them in a list
     data = []
     subreddit = reddit.subreddit(sub)
-
-    for submission in subreddit.hot():
+    hot = subreddit.hot(limit=100)
+    for submission in hot:
         comments = []
         article = {
             "id": submission.id,
@@ -35,11 +32,9 @@ def subreddit_hot_submissions(sub="wallstreetbets"):
     return data
 
 
-
-
-
 if __name__ == '__main__':
-
     data = subreddit_hot_submissions()
     for datum in data:
-        print("Attempting to save article", datum["title"])
+        print("Attempting to save article: ", datum["title"])
+        articles.put_item(Item=datum)
+    print("Successfully inserted into articles table!")
