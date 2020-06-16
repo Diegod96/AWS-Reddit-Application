@@ -57,6 +57,9 @@ def clean_comments(comments):
     comments_text_blob = re.sub(r'^https?:\/\/.*[\r\n]*', '', comments_text_blob, flags=re.MULTILINE)
     comments_text_blob = ''.join(i for i in comments_text_blob if not i in punctuation)
     comments_text_blob = emoji_pattern.sub(r'', comments_text_blob)
+    _RE_COMBINE_WHITESPACE = re.compile(r"\s+")
+    comments_text_blob = _RE_COMBINE_WHITESPACE.sub(" ", comments_text_blob).strip()
+
     print("Comments cleaned!")
 
     return comments_text_blob
@@ -93,6 +96,8 @@ def clean_titles(titles):
     titles_text_blob = re.sub(r'^https?:\/\/.*[\r\n]*', '', titles_text_blob, flags=re.MULTILINE)
     titles_text_blob = ''.join(i for i in titles_text_blob if not i in punctuation)
     titles_text_blob = emoji_pattern.sub(r'', titles_text_blob)
+    _RE_COMBINE_WHITESPACE = re.compile(r"\s+")
+    titles_text_blob = _RE_COMBINE_WHITESPACE.sub(" ", titles_text_blob).strip()
     print("Titles cleaned!")
 
     return titles_text_blob
