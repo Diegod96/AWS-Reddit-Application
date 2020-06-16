@@ -1,6 +1,7 @@
 import re
 from dynamo import get_items
 import boto3
+from string import punctuation
 
 articles = get_items()
 
@@ -28,7 +29,6 @@ def parse_table():
 def clean_comments(comments):
     # Cleans comments from any hyperlinks, weird special characters, emojis, etc.
     print("Cleaning comments...")
-    bad_chars = ['-', '+', '^', '*', '/', '|', '#', '[', ']', "'\'"]
     emoji_pattern = re.compile("["
                                 u"\U0001F600-\U0001F64F"  # emoticons
                                 u"\U0001F300-\U0001F5FF"  # symbols & pictographs
@@ -53,8 +53,9 @@ def clean_comments(comments):
 
     comments_text_blob = "".join(str(comment) for comment in comments)
     comments_text_blob = comments_text_blob.replace("\n", "")
+    comments_text_blob = comments_text_blob.replace("  ", "")
     comments_text_blob = re.sub(r'^https?:\/\/.*[\r\n]*', '', comments_text_blob, flags=re.MULTILINE)
-    comments_text_blob = ''.join(i for i in comments_text_blob if not i in bad_chars)
+    comments_text_blob = ''.join(i for i in comments_text_blob if not i in punctuation)
     comments_text_blob = emoji_pattern.sub(r'', comments_text_blob)
     print("Comments cleaned!")
 
@@ -65,7 +66,6 @@ def clean_comments(comments):
 def clean_titles(titles):
     # Cleans titles from any hyperlinks, weird special characters, emojis, etc.
     print("Cleaning titles...")
-    bad_chars = ['-', '+', '^', '*', '/', '|', '#', '[', ']', "'\'"]
     emoji_pattern = re.compile("["
                                u"\U0001F600-\U0001F64F"  # emoticons
                                u"\U0001F300-\U0001F5FF"  # symbols & pictographs
@@ -89,8 +89,9 @@ def clean_titles(titles):
 
     titles_text_blob = "".join(str(title) for title in titles)
     titles_text_blob = titles_text_blob.replace("\n", "")
+    titles_text_blob = titles_text_blob.replace("  ", "")
     titles_text_blob = re.sub(r'^https?:\/\/.*[\r\n]*', '', titles_text_blob, flags=re.MULTILINE)
-    titles_text_blob = ''.join(i for i in titles_text_blob if not i in bad_chars)
+    titles_text_blob = ''.join(i for i in titles_text_blob if not i in punctuation)
     titles_text_blob = emoji_pattern.sub(r'', titles_text_blob)
     print("Titles cleaned!")
 
