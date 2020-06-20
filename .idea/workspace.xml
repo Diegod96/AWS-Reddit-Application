@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72d3a9f2-75d4-4125-a217-06f980b22495" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/.idea/Data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/dynamo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sentiment-Analysis/blob.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/Retrieve.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/dictionaries/diego.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/comments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/dynamo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieve/titles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scraper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment-Analysis/.idea/Sentiment-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment-Analysis/.idea/Sentiment-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment-Analysis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment-Analysis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment-Analysis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment-Analysis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment-Analysis/ask_politics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment-Analysis/sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment-Analysis/sentiment_analysis.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dXmvvlSZ6eUxkkWrrBHobDToDA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72d3a9f2-75d4-4125-a217-06f980b22495" name="Default Changelist" comment="" />
+      <created>1592580045273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592580045273</updated>
+      <workItem from="1592580053511" duration="15000" />
+    </task>
+    <servers />
+  </component>
+</project>

@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03afe63e-ef1e-47d0-a5e3-5b161c70aaa6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/Retrieve.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/dictionaries/diego.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/comments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/dynamo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Retrieve/titles.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamo.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sentiment-Analysis/.idea/Sentiment-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sentiment-Analysis/.idea/Sentiment-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sentiment-Analysis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sentiment-Analysis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sentiment-Analysis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sentiment-Analysis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sentiment-Analysis/ask_politics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sentiment-Analysis/sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Sentiment-Analysis/sentiment_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +49,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/config.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Reddit-AWS" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/config.py&#10;C:/Users/diego/development/AWS-Reddit-Application/Scraper/reddit.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,7 +99,13 @@
       <option name="presentableId" value="Default" />
       <updated>1592274781423</updated>
       <workItem from="1592274783279" duration="3289000" />
-      <workItem from="1592309161848" duration="3262000" />
+      <workItem from="1592309161848" duration="5393000" />
+      <workItem from="1592362131147" duration="788000" />
+      <workItem from="1592405969797" duration="1322000" />
+      <workItem from="1592428673377" duration="288000" />
+      <workItem from="1592429610826" duration="84000" />
+      <workItem from="1592444495671" duration="13000" />
+      <workItem from="1592496271703" duration="599000" />
     </task>
     <servers />
   </component>
@@ -93,42 +113,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1700" y="459" key="FileChooserDialogImpl" timestamp="1592275244784">
+    <state x="1700" y="459" key="FileChooserDialogImpl" timestamp="1592444507519">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1700" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1592275244784" />
-    <state width="1235" height="401" key="GridCell.Tab.0.bottom" timestamp="1592313472111">
+    <state x="1700" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1592444507519" />
+    <state width="1235" height="492" key="GridCell.Tab.0.bottom" timestamp="1592318090724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592313472111" />
-    <state width="1235" height="401" key="GridCell.Tab.0.center" timestamp="1592313472110">
+    <state width="1235" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090724" />
+    <state width="1235" height="492" key="GridCell.Tab.0.center" timestamp="1592318090723">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592313472110" />
-    <state width="1235" height="401" key="GridCell.Tab.0.left" timestamp="1592313472110">
+    <state width="1235" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090723" />
+    <state width="1235" height="492" key="GridCell.Tab.0.left" timestamp="1592318090723">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592313472110" />
-    <state width="1235" height="401" key="GridCell.Tab.0.right" timestamp="1592313472111">
+    <state width="1235" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090723" />
+    <state width="1235" height="492" key="GridCell.Tab.0.right" timestamp="1592318090723">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592313472111" />
-    <state width="1235" height="492" key="GridCell.Tab.1.bottom" timestamp="1592312340292">
+    <state width="1235" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090723" />
+    <state width="1235" height="492" key="GridCell.Tab.1.bottom" timestamp="1592318090724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592312340292" />
-    <state width="1235" height="492" key="GridCell.Tab.1.center" timestamp="1592312340292">
+    <state width="1235" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090724" />
+    <state width="1235" height="492" key="GridCell.Tab.1.center" timestamp="1592318090724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592312340292" />
-    <state width="1235" height="492" key="GridCell.Tab.1.left" timestamp="1592312340292">
+    <state width="1235" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090724" />
+    <state width="1235" height="492" key="GridCell.Tab.1.left" timestamp="1592318090724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592312340292" />
-    <state width="1235" height="492" key="GridCell.Tab.1.right" timestamp="1592312340292">
+    <state width="1235" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090724" />
+    <state width="1235" height="492" key="GridCell.Tab.1.right" timestamp="1592318090724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592312340292" />
+    <state width="1235" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592318090724" />
     <state x="1421" y="346" key="SettingsEditor" timestamp="1592313506977">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
