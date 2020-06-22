@@ -1,8 +1,7 @@
 import boto3
 import re
-from dynamo import get_items
+from dynamo import *
 from string import punctuation
-
 
 print("Retrieving articles table...")
 articles = get_items()
@@ -132,6 +131,17 @@ def put_S3(content):
     print("File sent to S3 bucket!")
 
 
+def erase_contents():
+    print("Erasing contents of the article table...")
+    scan = articles.scan()
+    with articles.batch_writer() as batch:
+        for each in scan['Items']:
+            batch.delete_item(
+                Key={
+                    'id': each['id'],
+                }
+            )
+    print("Erased contents of the articles table!")
 
 
 def lambda_handler(x, y):
@@ -140,3 +150,4 @@ def lambda_handler(x, y):
     data = clean_comments(dirty_comments) + clean_titles(dirty_titles)
     content = preprocess(data)
     put_S3(content)
+    erase_contents()

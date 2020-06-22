@@ -6,3 +6,6 @@ def get_items():
     dynamodb = boto3.resource("dynamodb")
     table = dynamodb.Table("articles")
     return table
+
+
+

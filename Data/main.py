@@ -133,6 +133,20 @@ def put_S3(content):
 
 
 
+def erase_contents():
+    print("Erasing contents of the article table...")
+    scan = articles.scan()
+    with articles.batch_writer() as batch:
+        for each in scan['Items']:
+            batch.delete_item(
+                Key={
+                    'id': each['id'],
+                }
+            )
+    print("Erased contents of the articles table!")
+
+
+
 
 if __name__ == '__main__':
     dirty_comments = parse_table()[0]
@@ -140,3 +154,4 @@ if __name__ == '__main__':
     data = clean_comments(dirty_comments) + clean_titles(dirty_titles)
     content = preprocess(data)
     put_S3(content)
+    erase_contents()
